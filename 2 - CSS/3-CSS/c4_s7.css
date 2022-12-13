@@ -1,0 +1,7 @@
+/* Arquivo estilo.css */
+p { color: blue; }
+.cor_vermelha { color: red; }
+#linha_3 { font-style: italic; }
+#linha_4 { font-weight:bold; }
+
+/* para saber como ficaria o comando no html consultar o arquivo com nome c4_s7.css */
