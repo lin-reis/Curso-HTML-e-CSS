@@ -1,44 +1,4 @@
-<!doctype html>
-<html>
 
-<head>
-    <title>betabase</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
-    <link rel="stylesheet" href="css/estilo.css">
-    <link rel="shortcut icon" href="img/favicon.png" sizes="32x32" type="image/png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
-<body>
-    <header>
-        <nav class="navbar navbar-inverse navbar-fixed">
-            <div class="container"> <!-- essa div é base do bootstrap -->
-                <div class="navbar-header">
-                    <!-- LOGO -->
-                    <a href="#" alt="betabase - home" title="Home"><img id="logo" src="img/logo.svg"></a>
-                    <!-- SMARTPHONE -->
-                    <button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#menu_lista" aria-expanded="false">
-                        <!-- esse collapse siginifica que ao reduzir o tamanho da página ele muda o modelo de menu e fica aqueles 3 risquinhos. O comando encerra ao final do Button  -->
-                        <span style="background-color:#9bbd46" class="icon-bar"></span>
-                        <span style="background-color:#9bbd46" class="icon-bar"></span>
-                        <span style="background-color:#9bbd46" class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="menu_lista">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="link_menu"><a href="#">Sobre</a></li>
-                        <li class="link_menu"><a href="#">Listar</a></li>
-                        <li class="link_menu"><a href="#">Projetos</a></li>
-                        <li class="link_menu"><a href="#">Ajuda</a></li>
-                    </ul>
-                </div>
-
-            </div>
-        </nav>
-    </header>
     <div id="main">
         <div class="container">
             <div class="row">
@@ -55,14 +15,14 @@
                         <!-- IMAGENS -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
-                                <img src="img/j1.jpg" class="img-thumbnail center" alt="beta-glicosidases">
+                                <img src="app/img/j1.jpg" class="img-thumbnail center" alt="beta-glicosidases">
                                 <div class="carousel-caption">
                                     Enzimas usadas na produção de <strong>biocombustíveis</strong>.
                                 </div>
                             </div>
 
                             <div class="item">
-                                <img src="img/j2.jpg" class="img-thumbnail"
+                                <img src="app/img/j2.jpg" class="img-thumbnail"
                                     alt="agem em parceria com endo- e exoglucanases.">
                                 <div class="carousel-caption">
                                     Agem em parceria com endo e exoglucanases para converter celulose em glicose
@@ -71,7 +31,7 @@
                             </div>
 
                             <div class="item">
-                                <img src="img/j3.jpg" class="img-thumbnail" alt="...">
+                                <img src="app/img/j3.jpg" class="img-thumbnail" alt="...">
                                 <div class="carousel-caption">
                                     São altamente inibidas pelo próprio produto. Entretanto, algumas são resistentes.
                                 </div>
@@ -113,20 +73,20 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img src="img/f1.jpg" class="img-thumbnail">
+                        <img src="app/img/f1.jpg" class="img-thumbnail">
 
                         <div class="caption">
                             <h3>Sobre</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula.
                                 Mauris pretium magna nec porttitor vulputate.</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Botão</a>
+                            <p><a href="?i=sobre" class="btn btn-primary" role="button">Saiba Mais</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img src="img/f2.jpg" class="img-thumbnail">
+                        <img src="app/img/f2.jpg" class="img-thumbnail">
                         <div class="caption">
                             <h3>Navegar</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula.
@@ -138,7 +98,7 @@
 
                 <div class="col-md-4">
                     <div class="thumbnail">
-                        <img src="img/f3.jpg" class="img-thumbnail">
+                        <img src="app/img/f3.jpg" class="img-thumbnail">
                         <div class="caption">
                             <h3>BLAST</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula.
@@ -150,27 +110,3 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2"><a href="#"><img id="logo" src="img/logo.svg"></a></div>
-                <div class="col-md-1 lista_footer"><a href="#">Sobre</a></div>
-                <div class="col-md-1 lista_footer"><a href="#">Listar</a></div>
-                <div class="col-md-1 lista_footer"><a href="#">Buscar</a></div>
-                <div class="col-md-1 lista_footer"><a href="#">Ajuda</a></div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p>© 2017 betabase | Todos os direitos reservados. Construido por <a href="#">Diego Mariano</a>.</p>
-                </div>
-            </div>
-        </div>
-        <!-- jQuery -->
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-    </footer>
-</body>
-
-</html>
-
-<!-- ***DICA DE SITE PARA BUSCAR EXEMPLOS DE CÓDIGOS PRONTOS PARA USAR https://www.tutorialrepublic.com/******* -->
