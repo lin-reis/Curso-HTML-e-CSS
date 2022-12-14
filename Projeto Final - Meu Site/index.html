@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <title>Wow Pics</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+        <link rel="stylesheet" href="css/estilo.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <div class="icon-bar">
+            <a class="active" href="#"><i class="fa fa-home"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa fa-globe"></i></a>
+            <a href="#"><i class="fa fa-trash"></i></a>
+        </div>
+    </head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <!-- LOGO -->
+            <a href="index.html" alt="WoW-Pics - home" title="Home"><img id="logo" src="img/WoW-Pics-logo.png"
+                    width="80px"></a>
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--        <nav class="navbar navbar-fixed">
+            <div class="container"> ---- (essa div é base do bootstrap)----
+        <div class="navbar-header">
+                    <a href="index.html" alt="WoW-Pics - home" title="Home"><img id="logo" src="img/WoW-Pics-logo.png"
+                            width="80px"></a>
+ SMARTPHONE 
+           <button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#menu_lista" aria-expanded="false">
+               ----- (esse collapse siginifica que ao reduzir o tamanho da página ele muda o modelo de menu e fica aqueles 3 risquinhos. O comando encerra ao final do Button)  -----
+              <span style="background-color:#c84f23" class="icon-bar"></span>
+                <span style="background-color:#c84f23" class="icon-bar"></span>
+                <span style="background-color:#c84f23" class="icon-bar"></span>
+            </button>
+      </div>
+       <div class="collapse navbar-collapse" id="menu_lista">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="link_menu"><a href="sobre.html">Sobre</a></li>
+                <li class="link_menu"><a href="#">Listar</a></li>
+                <li class="link_menu"><a href="#">Projetos</a></li>
+                <li class="link_menu"><a href="#" data-toggle="modal" data-target="#help">Ajuda</a></li>
+            </ul>
+        </div>
+ 
+        </div>
+        </nav>
+        -->
+    </header>
+    <div id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-xs-12">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                        <!-- PONTOS REPRESENTATIVOS DE IMAGENS -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- IMAGENS -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img src="img/j1.jpg" class="img-thumbnail center" alt="beta-glicosidases">
+                                <div class="carousel-caption">
+                                    Enzimas usadas na produção de <strong>biocombustíveis</strong>.
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="img/j2.jpg" class="img-thumbnail"
+                                    alt="agem em parceria com endo- e exoglucanases.">
+                                <div class="carousel-caption">
+                                    Agem em parceria com endo e exoglucanases para converter celulose em glicose
+                                    fermentável.
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <img src="img/j3.jpg" class="img-thumbnail" alt="...">
+                                <div class="carousel-caption">
+                                    São altamente inibidas pelo próprio produto. Entretanto, algumas são resistentes.
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- CONTROLES -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button"
+                            data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button"
+                            data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- o carrossel ficou com 5 colunas e o que sobrou ficou com 7 colunas, que no caso é o texto  -->
+                <div class="col-md-7 col-xs-12">
+                    <h1>Hello, world!</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula. Mauris
+                        pretium magna nec porttitor vulputate. Maecenas nisi massa, imperdiet at viverra sed, gravida id
+                        quam. Vestibulum diam est, efficitur in libero ut, maximus dictum tellus. In a leo dolor. Nam
+                        nec dictum magna. Donec interdum dolor vel nulla placerat, at tincidunt orci viverra. Curabitur
+                        vel lacus enim. Morbi iaculis ipsum et mi pretium ultricies. Duis ut metus quis sapien dictum
+                        euismod. Vestibulum leo odio, porttitor eget ultricies eu, dignissim id tortor.
+
+                    </p>
+                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/f1.jpg" class="img-thumbnail">
+
+                        <div class="caption">
+                            <h3>Sobre</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula.
+                                Mauris pretium magna nec porttitor vulputate.</p>
+                            <p><a href="sobre.html" class="btn btn-primary" role="button">Saiba Mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/f2.jpg" class="img-thumbnail">
+                        <div class="caption">
+                            <h3>Navegar</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula.
+                                Mauris pretium magna nec porttitor vulputate.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Botão</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/f3.jpg" class="img-thumbnail">
+                        <div class="caption">
+                            <h3>BLAST</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet risus ligula.
+                                Mauris pretium magna nec porttitor vulputate.</p>
+                            <p><a href="#" class="btn btn-primary" role="button">Botão</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL HELP -->
+    <div class="modal fade" id="help" tabindex="-1" role="dialog" aria-labelledby="help">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Ajuda</h4>
+                </div>
+                <div class="modal-body">
+                    <p style="text-align:center"><img src="img/logo.svg" alt="logo betabase"></p><br>
+                    <p>Betabase é uma base de dados com todas as sequências e estruturas de beta-glicosidases
+                        disponíveis no PDB.</p>
+                    <p>Pressione <b>navegar</b> para obter uma lista de beta-glicosidases disponíveis. Para buscar
+                        novas sequências, clique no menu <b>BLAST</b>. Para mais informações, entre em contato com
+                        <a href="#">Prof. Djonatan Piehowiak</a>.
+                    </p><br>
+                    <p><label class="label label-default">Atualizado em:</label> 12 de dezembro, 2022</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIM Modal -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-md-2"><a href="#"><img id="logo" src="img/WoW-Pics-logo.png" width="80px"></a></div> -->
+                <div class="col-md-1 lista_footer"><a href="sobre.html">Sobre</a></div>
+                <div class="col-md-1 lista_footer"><a href="#">Listar</a></div>
+                <div class="col-md-1 lista_footer"><a href="#">Buscar</a></div>
+                <div class="col-md-1 lista_footer"><a href="#" data-toggle="modal" data-target="#help">Ajuda</a></div>
+                <br>
+                <!-- </div> -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>© 2022 WoW Pics | Todos os direitos reservados. Construido por <a href="#">Évelin Reis</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- jQuery -->
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+    </footer>
+</body>
+
+</html>
+
+<!-- ***DICA DE SITE PARA BUSCAR EXEMPLOS DE CÓDIGOS PRONTOS PARA USAR https://www.tutorialrepublic.com/******* -->
